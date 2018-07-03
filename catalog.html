@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">    
+    <link rel="stylesheet" href="css/catalog.css">
+    <title>Catalog of products | Mishka website</title>
+</head>
+<body>
+
+    <div class="main">
+        
+        <header class="header header-view">
+            <input type="checkbox" class="nav-burger__checkbox" id="burger">
+            <label for="burger" class="nav-burger"></label>
+            <div class="header__logo header__logo-pos logo">
+                <a href="index.html"><img src="img/mobile/mishka-logo-mobile.png" alt="" class="logo__img"></a>
+            </div>
+        
+            <nav class="menu">
+                <a href="catalog.html" class="menu__link menu__link-catalog">католог товаров</a>
+                <a href="form.html" class="menu__link menu__link-knitting">вязание на заказ</a>
+                <a href="#" class="menu__link menu__link-search">
+                <i class="fa fa-search" aria-hidden="true"></i></a>
+        
+                <div class="menu__link menu__link-cart">
+                    <a href="#" class="menu__link"><p class="cart__state">Корзина: <span class="cart__status">пока пуста</span></p></a>
+                </div>
+            </nav>
+        </header>
+        
+        <header class="header-tablet header-tablet-view">
+            <nav class="menu">
+                <div class="header-tablet__logo header-tablet__logo-pos logo">
+                    <a href="index.html"><img src="img/tablet/mishka-logo.png" alt="" class="logo__img"></a>
+                </div>
+                <div class="menu__wrapper">
+                    <a href="#" class="menu__link menu__link-search">
+                        <i class="fa fa-search" aria-hidden="true"></i></a>        
+                    <div class="menu__cart cart menu__link menu__link-border">
+                        <a href=""><p class="cart__state">Корзина: <span class="cart__status">пока пуста</span></p></a> 
+                    </div>
+                 </div>
+            </nav>
+        </header>
+        
+        <header class="header-desktop header-desktop-view">
+            <nav class="menu">
+                <a href="catalog.html" class="menu__link menu__link-catalog">католог товаров</a>
+                <a href="form.html" class="menu__link menu__link-knitting">вязание на заказ</a>
+                <div class="header-desktop__logo header-desktop__logo-pos logo">
+                    <a href="index.html"><img src="img/main-logo.png" alt="" class="logo__img"></a>
+                </div>
+        
+                <div class="menu__wrapper">
+                <a href="#" class="menu__link menu__link-search">
+                    <i class="fa fa-search" aria-hidden="true"></i></a>
+        
+                <div class="menu__cart cart menu__link menu__link-border">
+                    <a href=""><p class="cart__state">Корзина: <span class="cart__status">пока пуста</span></p></a>
+                </div>
+                </div>
+            </nav>
+        </header>
+
+
+        <section class="main-content">
+            <article class="home home-view">
+                <div class="wrapper__props clearfix">
+                    <a href="catalog.html" class="home__link home__link-tablet home__link-pos">католог товаров</a>
+                    <a href="form.html" class="home__link home__link-tablet home__link-pos">вязание на заказ</a>
+                    <!-- <a href="#" class="home__link home__link-desktop home__link-pos">новые поступления</a>
+                    <a href="#" class="home__link home__link-desktop home__link-pos">распродажа</a>
+                    <span class="home__delivery home__delivery-pos">бесплатная доставка по России</span> -->
+                </div>
+    
+                <h1 class="home__title home__title-view">Каталог товаров</h1>
+                     
+                <img src="img/large/home_down-line.png" alt="" class="home__down-line home__down-line_pos">
+
+            </article>
+        </section>
+    
+
+        <section class="items item">
+
+          <div class="item__wrapper">
+
+            <div class="item-1">
+                <div class="item-1__img"></div>
+                <div class="item-1__description description">
+                    <div class="description__title">
+                        <h3>Зайчик-попрыгайчик</h3>
+                        <p>Рост 30 см, вес 200 г </p>
+                    </div>
+                    <div class="description__price">
+                        <h3>1 200 руб. </h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-2">
+                <div class="item-2__img"></div>
+                <div class="item-2__description description">
+                    <div class="description__title">
+                        <h3>Корзинка для белья</h3>
+                        <p>Диамент 15 см, высота 10 см</p>
+                    </div>
+                    <div class="description__price">
+                        <h3 class="unique">690 руб. </h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-3">
+                <div class="item-3__img"></div>
+                <div class="item-3__description description">
+                    <div class="description__title">
+                        <h3>Большая корзинка для игрушек</h3>
+                        <p class="unique">Диаметр 30 см, высота 30 см</p>
+                    </div>
+                    <div class="description__price">
+                        <h3>1 500 руб. </h3>
+                    </div>
+                </div>
+            </div>
+            
+          </div>
+
+            <div class="item__video video">
+                <div class="video__img"></div>
+                <div class="video__wrapper">
+                    <div class="video__title"><h3>Процес производства</h3></div>
+                    <div class="video__description">
+                        <p>По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
+                        <button>cделать заказ</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <footer class="footer">
+                <div class="footer__container container">
+                <div class="container__logo"><a href="index.html"></a></div>
+                <div class="container__nets">
+                    <a href=""></a>
+                    <a href=""><img src="img/mobile/facebook.png" alt=""></a>
+                    <a href=""><img src="img/mobile/twitter.png" alt=""></a>
+                </div>
+                <div class="container__developers">
+                    <h4>Разработано</h4>
+                    <a href="#"></a>
+                </div>
+                </div>
+            </footer>
+
+    </div>
+
+</body>
+</html>
